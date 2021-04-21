@@ -1,0 +1,8 @@
+tqdm
+opencv-python
+tensorflow==2.2.0
+tensorflow-addons==0.10.0
+numpy
+onnx
+keras2onnx
+onnxruntime
