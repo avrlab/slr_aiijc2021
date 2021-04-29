@@ -3,3 +3,4 @@
 *.h5         filter=lfs diff=lfs merge=lfs -binary
 *.onnx       filter=lfs diff=lfs merge=lfs -binary
 *.pb         filter=lfs diff=lfs merge=lfs -binary
+*.ipynb      filter=lfs diff=lfs merge=lfs -binary
