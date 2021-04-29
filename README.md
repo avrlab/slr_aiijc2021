@@ -60,7 +60,7 @@ An example of a neural network for gesture recognition and the dactyl alphabet o
        --weights_dir weights
    ```
 ## Test script
-Run the script for `.h5` weights:
+Run the script for Keras weights:
    ```shell
    python test.py \
        --data_info_path data_paths.pkl \
@@ -68,7 +68,7 @@ Run the script for `.h5` weights:
        --weight_path baseline_weights/baseline_model.h5
    ```
 
-Or for the `.onnx` model:
+Or for the ONNX model:
    ```shell
    python test.py \
        --data_info_path data_paths.pkl \

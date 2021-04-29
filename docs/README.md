@@ -58,7 +58,7 @@
        --weights_dir weights
    ```
 ## Тестовый скрипт
-Для формата `.h5`:
+Для весов в формате Keras:
    ```shell
    python test.py \
        --data_info_path data_paths.pkl \
@@ -66,7 +66,7 @@
        --weight_path baseline_weights/baseline_model.h5
    ```
 
-Аналогично для `.onnx`:
+Аналогично для ONNX:
    ```shell
    python test.py \
        --data_info_path data_paths.pkl \
