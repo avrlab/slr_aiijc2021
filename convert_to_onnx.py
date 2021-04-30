@@ -4,10 +4,6 @@ from model import get_model
 import argparse
 
 parser = argparse.ArgumentParser(description='Script for convert .h5 (keras) to .onnx')
-parser.add_argument('--data_info_path', type=str, default='data_processing/data_paths.pkl',
-                    help='Path to file with a list of all image paths')
-parser.add_argument('--batch_size', type=int, default=4,
-                    help='Batch size for training')
 parser.add_argument('--weight_h5', type=str, default='',
                     help='Path to file with .h5 weights')
 parser.add_argument('--weight_onnx', type=str, default='test_model.onnx',
