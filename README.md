@@ -6,6 +6,10 @@ Russian version: [README.md](docs/README.md)
 ## Description
 An example of a neural network for gesture recognition and the dactyl alphabet of the Russian Sign Language (RSL) based on video fragments, which demonstrate gestures that denote letters and words.
 
+## Dataset Downloads
+* Yandex Disk: [downloading link](https://disk.yandex.ru/d/ATux-KiyU0NzIQ)
+* Contest website: [downloading link](https://aiijc.com/ru/task/1064/)
+
 ## Installation
 1. Clone this repository:
    ```shell
@@ -16,7 +20,7 @@ An example of a neural network for gesture recognition and the dactyl alphabet o
    ```shell
     pip install -r requirements.txt
    ```
-3. Upload a dataset archive from [the contest website](https://aiijc.com/ru/). It should have this basic structure:
+3. Upload a dataset archive. It should have this basic structure:
     ```
     data
     ├── test
